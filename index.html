@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relatório de Desenvolvimento Digital — CTMVida | NexEmpreende</title>
+  <meta name="description" content="Relatório profissional do desenvolvimento digital do CTMVida conduzido pela NexEmpreende." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Ícones (SVG inline via Lucide-like) -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- html2pdf via CDN (única lib externa permitida) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Logo NexEmpreende" class="brand-logo" />
+        <div class="brand-text">
+          <h1>Relatório de Desenvolvimento Digital — CTMVida</h1>
+          <p>Evolução do Sistema Administrativo e Infraestrutura Digital</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="report">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <span class="eyebrow">NexEmpreende × CTMVida</span>
+          <h2>Transformando a Gestão do CTMVida através da Tecnologia</h2>
+          <p>
+            A <strong>NexEmpreende</strong> está conduzindo a digitalização
+            administrativa da instituição, desenvolvendo sistemas próprios para
+            aumentar <strong>organização</strong>, <strong>segurança</strong> e
+            <strong>eficiência operacional</strong> — construindo uma base
+            tecnológica sólida para o futuro do CTMVida.
+          </p>
+          <div class="hero-cta">
+            <a href="#timeline" class="btn btn-primary">Ver Entregas</a>
+            <a href="#roadmap" class="btn btn-ghost">Próximas Etapas</a>
+          </div>
+        </div>
+        <div class="hero-image reveal">
+          <img src="assets/placeholder-dashboard.png" alt="Visão geral do sistema" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TIMELINE ==================== -->
+    <section id="timeline" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Linha do tempo</span>
+          <h2>Principais Entregas Realizadas</h2>
+          <p>Um panorama do que já foi construído até o momento.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">🚀</div>
+            <div class="timeline-card">
+              <h3>Sistema Administrativo iniciado</h3>
+              <p>Início do desenvolvimento da plataforma administrativa responsável pela organização de arquivos, usuários e setores da instituição.</p>
+              <img src="assets/placeholder-dashboard.png" alt="Sistema administrativo" />
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">🔐</div>
+            <div class="timeline-card">
+              <h3>Sistema de Login Seguro</h3>
+              <p>Implementação de login, cadastro de usuários, controle de acesso e camadas de segurança para proteger os dados institucionais.</p>
+              <img src="assets/placeholder-login.png" alt="Tela de login" />
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">🏛️</div>
+            <div class="timeline-card">
+              <h3>Organização por Setores</h3>
+              <p>Estrutura dividida em <strong>Direção, Secretaria, Financeiro, Coordenação, Professores</strong> e outros, com responsabilidades específicas para cada área.</p>
+              <img src="assets/placeholder-setores.png" alt="Setores" />
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">📁</div>
+            <div class="timeline-card">
+              <h3>Armazenamento de Arquivos</h3>
+              <p>Upload de arquivos, organização por pastas, armazenamento seguro e compartilhamento interno entre os setores.</p>
+              <img src="assets/placeholder-storage.png" alt="Armazenamento de arquivos" />
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">🛡️</div>
+            <div class="timeline-card">
+              <h3>Controle de Permissões</h3>
+              <p>Somente o <strong>Diretor</strong> possui permissão para excluir arquivos do sistema, aumentando a segurança e a governança institucional.</p>
+              
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">🍽️</div>
+            <div class="timeline-card">
+              <h3>Administração das Cantinas</h3>
+              <p>Módulo específico para o setor financeiro, permitindo administrar as cantinas da instituição de forma centralizada.</p>
+              <img src="assets/placeholder-dashboard.png" alt="Cantinas" />
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">📦</div>
+            <div class="timeline-card">
+              <h3>Cadastro de Produtos</h3>
+              <p>Cadastro, edição, exclusão e atualização de produtos das cantinas, com controle completo do catálogo.</p>
+              
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-icon">☁️</div>
+            <div class="timeline-card">
+              <h3>Infraestrutura</h3>
+              <p>Sistema hospedado na plataforma <strong>Render</strong>: hospedagem gratuita, fácil manutenção, acesso online e poucas limitações para o estágio atual do projeto.</p>
+              
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================== GALERIA ==================== -->
+    <section id="galeria" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Galeria</span>
+          <h2>Prints do Sistema</h2>
+          <p>Visão geral das telas já desenvolvidas.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card reveal"><img src="assets/placeholder-login.png" alt="Tela de Login" /><figcaption>Tela de Login</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-dashboard.png" alt="Dashboard" /><figcaption>Dashboard</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-storage.png" alt="Gerenciamento de Arquivos" /><figcaption>Gerenciamento de Arquivos</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-financeiro.png" alt="Financeiro" /><figcaption>Financeiro</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-canteen.png" alt="Cantinas" /><figcaption>Cantinas</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-setores.png" alt="Usuários" /><figcaption>Usuários</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/placeholder-storage.png" alt="Pastas" /><figcaption>Pastas</figcaption></figure>
+          <figure class="gallery-card reveal"><img src="assets/config.png" alt="Configurações" /><figcaption>Configurações</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VÍDEO ==================== -->
+    <section id="video" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Vídeo</span>
+          <h2>Demonstração do Sistema</h2>
+          <p>Assista a uma visão geral em movimento da plataforma.</p>
+        </div>
+
+        <video controls class="demo-video">
+          <source src="assets/demonstration.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- ==================== ROADMAP ==================== -->
+    <section id="roadmap" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Roadmap</span>
+          <h2>Próximas Etapas</h2>
+          <p>O que já foi entregue e o que está por vir.</p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-card done reveal"><span class="rm-icon">✅</span><h4>Sistema Administrativo</h4></div>
+          <div class="roadmap-card done reveal"><span class="rm-icon">🔐</span><h4>Login Seguro</h4></div>
+          <div class="roadmap-card done reveal"><span class="rm-icon">📁</span><h4>Gestão de Arquivos</h4></div>
+          <div class="roadmap-card done reveal"><span class="rm-icon">🛡️</span><h4>Controle de Permissões</h4></div>
+          <div class="roadmap-card done reveal"><span class="rm-icon">🍽️</span><h4>Administração das Cantinas</h4></div>
+
+          <div class="roadmap-card todo reveal"><span class="rm-icon">🎓</span><h4>Plataforma de Cursos</h4></div>
+          <div class="roadmap-card todo reveal"><span class="rm-icon">💻</span><h4>Ambiente Virtual de Aprendizagem (AVA)</h4></div>
+          <div class="roadmap-card todo reveal"><span class="rm-icon">💰</span><h4>Gestão Financeira Avançada</h4></div>
+          <div class="roadmap-card todo reveal"><span class="rm-icon">📣</span><h4>Comunicação Institucional</h4></div>
+          <div class="roadmap-card todo reveal"><span class="rm-icon">🔗</span><h4>Integração entre Plataformas</h4></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/logo.png" alt="NexEmpreende" class="footer-logo" />
+      <p class="footer-title">Desenvolvido por <strong>NexEmpreende</strong></p>
+      <p class="footer-copy">© <span id="year"></span> NexEmpreende. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão voltar ao topo -->
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
